@@ -1,0 +1,38 @@
+{
+    "name": "chrome-bookmark-manager",
+    "version": "0.1.0",
+    "description": "Chrome bookmarks API wrapper — search, organize, tag, deduplicate, import/export, and monitor bookmark changes. Zero dependencies.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "bookmarks",
+        "chrome-bookmarks",
+        "bookmark-manager",
+        "organize",
+        "manifest-v3",
+        "browser-extension",
+        "bookmark-search",
+        "bookmark-export"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/chrome-bookmark-manager.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
