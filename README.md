@@ -96,6 +96,10 @@ Contributions are welcome! Please follow these steps:
 6. **Push** to the branch: `git push origin feature/bookmark-improvement`
 7. **Submit** a Pull Request
 
+## License
+
+MIT — [Zovo](https://zovo.one)
+
 ## See Also
 
 ### Related Zovo Repositories
@@ -111,10 +115,6 @@ Contributions are welcome! Please follow these steps:
 - [Zovo Focus](https://chrome.google.com/webstore/detail/zovo-focus) - Block distractions
 
 Visit [zovo.one](https://zovo.one) for more information.
-
-## License
-
-MIT — [Zovo](https://zovo.one)
 
 ---
 
